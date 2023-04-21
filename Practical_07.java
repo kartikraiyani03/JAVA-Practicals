@@ -1,17 +1,18 @@
 import java.util.*;
-
-import javax.xml.transform.Source;
  
 public class Practical_07
 {
     public static void main(String args[])
     {
-        int meter;
+        // int meter;
         double feet;
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Parameter in Meter");
-        meter = sc.nextInt();
+        double meter = Double.parseDouble(args[0]);
+        
+        // System.out.println("Enter the Parameter in Meter");
+        // int x = Integer.parseInteger(args[0]);
+        // meter = sc.nextInt();
 
         System.out.println("");
         
